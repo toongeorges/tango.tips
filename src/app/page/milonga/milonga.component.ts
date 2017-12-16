@@ -6,18 +6,33 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./milonga.component.css']
 })
 export class MilongaComponent implements OnInit {
-  imgSrc: string = "/assets/images/milonga/dates/dec2017-forward.svg";
+  private imageLinks = {
+    "/milonga/dec2017" : {
+      "selected": "/assets/images/milonga/dates/dec2017-forward.svg",
+      "hover": "/assets/images/milonga/dates/dec2017-forward-hover.svg",
+      "out": "/assets/images/milonga/dates/dec2017-forward.svg"
+    },
+    "/milonga/dec2017b" : {
+      "selected": "/assets/images/milonga/dates/dec2017b-forward.svg",
+      "hover": "/assets/images/milonga/dates/dec2017b-forward-hover.svg",
+      "out": "/assets/images/milonga/dates/dec2017b-forward.svg"
+    }
+  }
   
   constructor() { }
 
   ngOnInit() {
   }
 
-  onMouseOver(): void {
-    this.imgSrc = "/assets/images/milonga/dates/dec2017-forward-hover.svg";
+  getImageSource(path: string) {
+    return this.imageLinks[path]['selected'];
   }
 
-  onMouseOut(): void {
-    this.imgSrc = "/assets/images/milonga/dates/dec2017-forward.svg";
+  onMouseOver(path: string): void {
+    this.imageLinks[path]['selected'] = this.imageLinks[path]['hover'];
+  }
+
+  onMouseOut(path: string): void {
+    this.imageLinks[path]['selected'] = this.imageLinks[path]['out'];
   }
 }

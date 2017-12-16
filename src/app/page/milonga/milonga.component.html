@@ -1,6 +1,9 @@
-<mat-grid-list cols="3" rowHeight="1:1">
-  <mat-grid-tile [colspan]="2">
-    <img routerLink="/milonga/dec2017" [src]="imgSrc" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()" height="100%" alt="Milonga Info">
+<mat-grid-list cols="6" rowHeight="1:1">
+  <mat-grid-tile [colspan]="4" [rowspan]="2">
+    <img routerLink="/milonga/dec2017b" [src]="getImageSource('/milonga/dec2017b')" (mouseover)="onMouseOver('/milonga/dec2017b')" (mouseout)="onMouseOut('/milonga/dec2017b')" height="100%" alt="Milonga Info">
   </mat-grid-tile>
-  <mat-grid-tile><img src="/assets/images/la-yumba.svg" height="100%" alt="La Yumba Milonga Ghent"></mat-grid-tile>
+  <mat-grid-tile [colspan]="2" [rowspan]="2"><img src="/assets/images/la-yumba.svg" height="100%" alt="La Yumba Milonga Ghent"></mat-grid-tile>
+  <mat-grid-tile [colspan]="2">
+    <img routerLink="/milonga/dec2017" [src]="getImageSource('/milonga/dec2017')" (mouseover)="onMouseOver('/milonga/dec2017')" (mouseout)="onMouseOut('/milonga/dec2017')" height="100%" alt="Milonga Info">
+  </mat-grid-tile>
 </mat-grid-list>
