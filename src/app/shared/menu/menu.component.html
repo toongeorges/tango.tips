@@ -1,0 +1,17 @@
+<mat-button-toggle-group #group="matButtonToggleGroup" vertical="true">
+  <mat-button-toggle value="milonga" routerLink="/milonga">
+    Milonga
+  </mat-button-toggle>
+  <mat-button-toggle value="forum" (click)="navigateToForum()">
+    Forum
+  </mat-button-toggle>
+  <mat-button-toggle value="code" routerLink="/code">
+    Code
+  </mat-button-toggle>
+  <mat-button-toggle value="organisation" routerLink="/organisation">
+    Organisation
+  </mat-button-toggle>
+  <mat-button-toggle value="contact" routerLink="/contact">
+    Contact
+  </mat-button-toggle>
+</mat-button-toggle-group>

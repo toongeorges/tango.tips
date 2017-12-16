@@ -1,0 +1,17 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav>
+    <app-menu></app-menu>
+  </mat-sidenav>
+  <mat-card>
+    <button mat-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <button mat-button (click)="navigateToFacebook()">
+      <img src="assets/images/facebook.png" height="16 px"/>
+    </button>
+    <button mat-button (click)="navigateToYouTube()">
+      <img src="assets/images/youtube.png" height="16 px"/>
+    </button>
+    <router-outlet></router-outlet>
+  </mat-card>
+</mat-sidenav-container>
