@@ -17,6 +17,8 @@ import { ContactComponent } from './page/contact/contact.component';
 import { Dec2017Component } from './page/milonga/dec2017/dec2017.component';
 import { Dec2017bComponent } from './page/milonga/dec2017/dec2017b.component';
 import { MapEntreCourEtJardinComponent } from './shared/maps/map-entre-cour-et-jardin/map-entre-cour-et-jardin.component';
+import { InterviewNlComponent } from './page/organisation/interview-nl/interview-nl.component';
+import { InterviewEnComponent } from './page/organisation/interview-en/interview-en.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { MapEntreCourEtJardinComponent } from './shared/maps/map-entre-cour-et-j
     Dec2017Component,
     ContactComponent,
     Dec2017bComponent,
-    MapEntreCourEtJardinComponent
+    MapEntreCourEtJardinComponent,
+    InterviewNlComponent,
+    InterviewEnComponent
   ],
   imports: [
     BrowserModule,

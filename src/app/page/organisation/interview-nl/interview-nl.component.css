@@ -1,0 +1,12 @@
+mat-card {
+    margin: 20px;
+}
+
+a {
+    color: #D80027;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D8D8D8;
+}
