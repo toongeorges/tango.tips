@@ -7,15 +7,17 @@ import { OrganisationComponent } from '../../page/organisation/organisation.comp
 import { ContactComponent } from '../../page/contact/contact.component';
 import { Dec2017Component } from '../../page/milonga/dec2017/dec2017.component';
 import { Dec2017bComponent } from '../../page/milonga/dec2017/dec2017b.component';
+import { Jan2018Component } from '../../page/milonga/jan2018/jan2018.component';
 
 const routes: Routes = [
   { path: 'milonga', component: MilongaComponent },
   { path: 'milonga/dec2017', component: Dec2017Component },
   { path: 'milonga/dec2017b', component: Dec2017bComponent },
+  { path: 'milonga/jan2018', component: Jan2018Component },
   { path: 'code', component: CodeComponent },
   { path: 'organisation', component: OrganisationComponent },
   { path: 'contact', component: ContactComponent },
-  { path: '', redirectTo: '/milonga/dec2017b', pathMatch: 'full' }
+  { path: '', redirectTo: '/milonga/jan2018', pathMatch: 'full' }
 ];
 
 @NgModule({
