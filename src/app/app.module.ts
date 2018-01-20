@@ -21,6 +21,8 @@ import { InterviewEnComponent } from './page/organisation/interview-en/interview
 import { Dec2017Component } from './page/milonga/dec2017/dec2017.component';
 import { Dec2017bComponent } from './page/milonga/dec2017/dec2017b.component';
 import { Jan2018Component } from './page/milonga/jan2018/jan2018.component';
+import { New2018WishesEnComponent } from './page/milonga/jan2018/new-2018-wishes-en/new-2018-wishes-en.component';
+import { New2018WishesNlComponent } from './page/milonga/jan2018/new-2018-wishes-nl/new-2018-wishes-nl.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { Jan2018Component } from './page/milonga/jan2018/jan2018.component';
     InterviewEnComponent,
     Dec2017Component,
     Dec2017bComponent,
-    Jan2018Component
+    Jan2018Component,
+    New2018WishesEnComponent,
+    New2018WishesNlComponent
   ],
   imports: [
     BrowserModule,

@@ -3,15 +3,23 @@
     <img routerLink="/milonga" [src]="imgSrc" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()" height="100%" alt="Milonga Info">
   </mat-grid-tile>
   <mat-grid-tile><img src="/assets/images/la-yumba.svg" height="100%" alt="La Yumba Milonga Ghent"></mat-grid-tile>
-  <mat-grid-tile [colspan]="2" [rowspan]="2">
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <img src="/assets/pictures/locatie-eskimofabriek.jpg" height="100%" alt="Dance Floor">
+    <mat-grid-tile-footer>Location</mat-grid-tile-footer>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
     <img src="/assets/pictures/zaal-eskimofabriek.jpg" height="100%" alt="Dance Floor">
     <mat-grid-tile-footer>Dance floor</mat-grid-tile-footer>
   </mat-grid-tile>
 </mat-grid-list>
-<h2>Time</h2>
-Practica: for free from 14h until 16h<br/>
-Milonga: €7 from 16h until 22h<br/>
-<h2>Location</h2>
-Dance floor: Wiedauwkaai 25, 9000 Ghent<br/>
-Plenty of parking space!<br/>
+<p>
+  <mat-tab-group>
+    <mat-tab label="Nederlands">
+      <app-new-2018-wishes-nl></app-new-2018-wishes-nl>
+    </mat-tab>
+    <mat-tab label="English">
+      <app-new-2018-wishes-en></app-new-2018-wishes-en>
+    </mat-tab>
+  </mat-tab-group>
+</p>
 <app-map-eskimofabriek></app-map-eskimofabriek>
