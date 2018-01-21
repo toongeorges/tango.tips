@@ -13,4 +13,8 @@ export class AppComponent {
   navigateToYouTube() {
     window.open("https://www.youtube.com/channel/UCPLXV7gRVnPEK3axc-4om6g/videos");
   }
+
+  navigateToKuula() {
+    window.open("https://kuula.co/profile/Toon");
+  }
 }
