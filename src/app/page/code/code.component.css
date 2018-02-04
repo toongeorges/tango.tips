@@ -1,3 +1,20 @@
 .full-height {
-  height: 200px;
+  min-height: 600px;
+}
+
+a {
+  color: #D80027;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D8D8D8;
+}
+
+mat-card {
+  margin: 20px;
+}
+
+img {
+  text-align: center;
 }
