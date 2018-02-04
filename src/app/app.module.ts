@@ -24,6 +24,7 @@ import { Jan2018Component } from './page/milonga/jan2018/jan2018.component';
 import { New2018WishesEnComponent } from './page/milonga/jan2018/new-2018-wishes-en/new-2018-wishes-en.component';
 import { New2018WishesNlComponent } from './page/milonga/jan2018/new-2018-wishes-nl/new-2018-wishes-nl.component';
 import { Jan2018bComponent } from './page/milonga/jan2018/jan2018b.component';
+import { Feb2018Component } from './page/milonga/feb2018/feb2018.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { Jan2018bComponent } from './page/milonga/jan2018/jan2018b.component';
     Jan2018Component,
     New2018WishesEnComponent,
     New2018WishesNlComponent,
-    Jan2018bComponent
+    Jan2018bComponent,
+    Feb2018Component
   ],
   imports: [
     BrowserModule,
