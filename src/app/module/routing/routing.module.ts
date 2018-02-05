@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'code', component: CodeComponent },
   { path: 'organisation', component: OrganisationComponent },
   { path: 'contact', component: ContactComponent },
-  { path: '', redirectTo: '/milonga/feb2018', pathMatch: 'full' }
+  { path: '', redirectTo: '/milonga', pathMatch: 'full' }
 ];
 
 @NgModule({
