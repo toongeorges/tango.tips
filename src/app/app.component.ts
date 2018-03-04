@@ -15,6 +15,6 @@ export class AppComponent {
   }
 
   navigateToKuula() {
-    window.open("https://kuula.co/profile/Toon");
+    window.open("https://kuula.co/profile/Toon/collections");
   }
 }
