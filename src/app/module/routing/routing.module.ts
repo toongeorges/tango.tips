@@ -12,6 +12,9 @@ import { Jan2018bComponent } from '../../page/milonga/jan2018/jan2018b.component
 import { Feb2018Component } from '../../page/milonga/feb2018/feb2018.component';
 import { Feb2018bComponent } from '../../page/milonga/feb2018/feb2018b.component';
 import { Mar2018Component } from '../../page/milonga/mar2018/mar2018.component';
+import { InterviewNlComponent } from '../../page/organisation/interview-nl/interview-nl.component';
+import { InterviewEnComponent } from '../../page/organisation/interview-en/interview-en.component';
+import { StatutenComponent } from '../../page/organisation/statuten/statuten.component';
 
 const routes: Routes = [
   { path: 'milonga', component: MilongaComponent },
@@ -23,7 +26,14 @@ const routes: Routes = [
   { path: 'milonga/feb2018b', component: Feb2018bComponent },
   { path: 'milonga/mar2018', component: Mar2018Component },
   { path: 'code', component: CodeComponent },
-  { path: 'organisation', component: OrganisationComponent },
+  { path: 'organisation', component: OrganisationComponent,
+    children: [
+      { path: 'nederlands', component: InterviewNlComponent },
+      { path: 'english', component: InterviewEnComponent },
+      { path: 'statuten', component: StatutenComponent },
+      { path: '', redirectTo: 'nederlands', pathMatch: 'full' }
+    ]
+  },
   { path: 'contact', component: ContactComponent },
   { path: '', redirectTo: '/milonga', pathMatch: 'full' }
 ];

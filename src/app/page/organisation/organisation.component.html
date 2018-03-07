@@ -2,16 +2,15 @@
 <p>
   y hay que saberla bailar
 </p>
-<p>
-  <mat-tab-group>
-    <mat-tab label="Nederlands">
-      <app-interview-nl></app-interview-nl>
-    </mat-tab>
-    <mat-tab label="English">
-      <app-interview-en></app-interview-en>
-    </mat-tab>
-    <mat-tab label="Statuten">
-      <app-statuten></app-statuten>
-    </mat-tab>
-  </mat-tab-group>
-</p>
+<nav mat-tab-nav-bar>
+  <a mat-tab-link [routerLink]="['nederlands']">
+    Nederlands
+  </a>
+  <a mat-tab-link [routerLink]="['english']">
+    English
+  </a>
+  <a mat-tab-link [routerLink]="['statuten']">
+    Statuten
+  </a>
+</nav>
+<router-outlet></router-outlet>
