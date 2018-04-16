@@ -37,6 +37,7 @@ const routes: Routes = [
     ]
   },
   { path: 'contact', component: ContactComponent },
+  { path: 'statuten', redirectTo: '/organisation/statuten', pathMatch: 'full' },
   { path: '', redirectTo: '/milonga', pathMatch: 'full' }
 ];
 
