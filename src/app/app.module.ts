@@ -28,6 +28,7 @@ import { Feb2018Component } from './page/milonga/feb2018/feb2018.component';
 import { StatutenComponent } from './page/organisation/statuten/statuten.component';
 import { Feb2018bComponent } from './page/milonga/feb2018/feb2018b.component';
 import { Mar2018Component } from './page/milonga/mar2018/mar2018.component';
+import { Apr2018Component } from './page/milonga/apr2018/apr2018.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { Mar2018Component } from './page/milonga/mar2018/mar2018.component';
     Feb2018Component,
     StatutenComponent,
     Feb2018bComponent,
-    Mar2018Component
+    Mar2018Component,
+    Apr2018Component
   ],
   imports: [
     BrowserModule,
