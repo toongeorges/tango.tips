@@ -16,6 +16,7 @@ import { InterviewNlComponent } from '../../page/organisation/interview-nl/inter
 import { InterviewEnComponent } from '../../page/organisation/interview-en/interview-en.component';
 import { StatutenComponent } from '../../page/organisation/statuten/statuten.component';
 import { Apr2018Component } from '../../page/milonga/apr2018/apr2018.component';
+import { May2018Component } from '../../page/milonga/may2018/may2018.component';
 
 const routes: Routes = [
   { path: 'milonga', component: MilongaComponent },
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'milonga/feb2018b', component: Feb2018bComponent },
   { path: 'milonga/mar2018', component: Mar2018Component },
   { path: 'milonga/apr2018', component: Apr2018Component },
+  { path: 'milonga/may2018', component: May2018Component },
   { path: 'code', component: CodeComponent },
   { path: 'organisation', component: OrganisationComponent,
     children: [
