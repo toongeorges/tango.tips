@@ -52,6 +52,11 @@ export class MilongaComponent implements OnInit {
       "hover": "/assets/images/milonga/dates/may2018-forward-hover.svg",
       "out": "/assets/images/milonga/dates/may2018-forward.svg"
     },
+    "/milonga/may2018b" : {
+      "selected": "/assets/images/milonga/dates/may2018b-forward.svg",
+      "hover": "/assets/images/milonga/dates/may2018b-forward-hover.svg",
+      "out": "/assets/images/milonga/dates/may2018b-forward.svg"
+    },
   }
   
   constructor() { }
