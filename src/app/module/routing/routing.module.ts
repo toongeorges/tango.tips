@@ -20,6 +20,7 @@ import { May2018Component } from '../../page/milonga/may2018/may2018.component';
 import { May2018bComponent } from '../../page/milonga/may2018/may2018b.component';
 import { June2018Component } from '../../page/milonga/june2018/june2018.component';
 import { July2018Component } from '../../page/milonga/july2018/july2018.component';
+import { Aug2018Component } from '../../page/milonga/aug2018/aug2018.component';
 
 const routes: Routes = [
   { path: 'milonga', component: MilongaComponent },
@@ -35,6 +36,7 @@ const routes: Routes = [
   { path: 'milonga/may2018b', component: May2018bComponent },
   { path: 'milonga/june2018', component: June2018Component },
   { path: 'milonga/july2018', component: July2018Component },
+  { path: 'milonga/aug2018', component: Aug2018Component },
   { path: 'code', component: CodeComponent },
   { path: 'organisation', component: OrganisationComponent,
     children: [
