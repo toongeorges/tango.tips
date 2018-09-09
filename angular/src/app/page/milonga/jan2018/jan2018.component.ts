@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./jan2018.component.css']
 })
 export class Jan2018Component implements OnInit {
-  imgSrc: string = "/assets/images/milonga/dates/jan2018-back.svg";
+  imgSrc: string = "assets/images/milonga/dates/jan2018-back.svg";
   
   constructor() { }
 
@@ -14,10 +14,10 @@ export class Jan2018Component implements OnInit {
   }
 
   onMouseOver(): void {
-    this.imgSrc = "/assets/images/milonga/dates/jan2018-back-hover.svg";
+    this.imgSrc = "assets/images/milonga/dates/jan2018-back-hover.svg";
   }
 
   onMouseOut(): void {
-    this.imgSrc = "/assets/images/milonga/dates/jan2018-back.svg";
+    this.imgSrc = "assets/images/milonga/dates/jan2018-back.svg";
   }
 }

@@ -1,0 +1,46 @@
+{
+  "name": "tango.tips",
+  "version": "1.0.0",
+  "description": "The tango.tips Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "build": "build",
+    "build-all": "build --linux --win --mac"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toongeorges/tango.tips.git"
+  },
+  "keywords": [
+    "tango",
+    "community"
+  ],
+  "author": "Toon Macharis <Toon@tango.tips> (https://tango.tips)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/toongeorges/tango.tips/issues"
+  },
+  "homepage": "https://github.com/toongeorges/tango.tips#readme",
+  "dependencies": {
+    "electron-localshortcut": "^3.1.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.8",
+    "electron-builder": "^20.28.4",
+    "electron-localshortcut": "^3.1.0"
+  },
+  "build": {
+    "appId": "tango.tips",
+    "productName": "tango.tips",
+    "copyright": "AGPLv3",
+    "linux": {
+      "target": "tar.bz2"
+    },
+    "win": {
+      "target": "portable"
+    },
+    "mac": {
+      "target": "tar.bz2"
+    }
+  }
+}
