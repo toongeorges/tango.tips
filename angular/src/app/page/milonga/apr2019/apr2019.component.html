@@ -1,0 +1,86 @@
+<mat-grid-list cols="3" rowHeight="1:1">
+  <mat-grid-tile [colspan]="2">
+    <img routerLink="/milonga" [src]="imgSrc" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()" height="100%" alt="Milonga Info">
+  </mat-grid-tile>
+  <mat-grid-tile><img src="assets/images/la-yumba.svg" height="100%" alt="La Yumba Milonga Ghent"></mat-grid-tile>
+</mat-grid-list>
+<mat-tab-group>
+  <mat-tab label="Nederlands">
+    <br/>
+    <div>
+      Algemene Vergadering: van 18u30 tot 20u voor alle leden, <a routerLink="/organisation/statuten">zie statuten</a><br/>
+      Agenda:
+      <ul>
+        <li>verslag van het afgelopen jaar</li>
+        <li>goedkeuring boekhouding vorig en huidig jaar</li>
+        <li>verkiezingen van een nieuw bestuur en kwijting van het oude bestuur</li>
+        <li>geluidsoverlast in Entre Cour &amp; Jardin en eventuele alternatieve zalen</li>
+        <li>mogelijke adreswijziging naar Gent</li>
+        <li>volgende algemene vergadering</li>
+      </ul>
+      We zoeken kandidaten voor het volgende bestuur.  Volgens de statuten bestaat het bestuur uit:
+      <ol>
+        <li>Voorzitter, deze functie zorgt ervoor dat het bestuur op regelmatige basis vergadert en staat andere functies bij waar nodig.</li>
+        <li>Vice-voorzitter, deze functie zorgt ervoor dat er een verslag wordt gemaakt van elke vergadering en staat de voorzitter bij waar nodig.</li>
+        <li>Penningmeester, deze functie volgt de boekhouding en het materiaal dat vereist is voor de activiteiten op en keurt de uitgaven goed.</li>
+        <li>Interne relaties, deze functie coördineert de communicatie met de leden.</li>
+        <li>Externe relaties, deze functie coördineert de activiteiten.</li>
+      </ol>
+      Indien je je kandidaat wil stellen als bestuurslid, gelieve het huidige bestuur te contacteren op info@tango.tips of 0478/668 298
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div>
+      Milonga: €6, leden: € 5 van 20u tot 1u, muziek door Grégory Demerville<br/>
+      <br/>
+      Dansvloer: Brusselsesteenweg 263, 9090 Melle<br/>
+      Parkeerplaats: Kloosterstraat, 9090 Melle<br/>
+    </div>
+    <br/>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/HGeQN8usZVM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <br/>
+  </mat-tab>
+  <mat-tab label="English">
+    <br/>
+    <div>
+      General Meeting: from 18h30 until 20h for all members, <a routerLink="/organisation/statuten">see statutes</a><br/>
+      Agenda (the meeting is in Dutch):
+      <ul>
+        <li>report of last year</li>
+        <li>approval of the budget of last year and this year</li>
+        <li>elections of a new board and discharge of the old board</li>
+        <li>noise disturbance in Entre Cour &amp; Jardin and possible alternative dance floors</li>
+        <li>possible address change to Ghent</li>
+        <li>next general meeting</li>
+      </ul>
+      We are looking for candidates for the next board.  According to the statutes the board consists of:
+      <ol>
+        <li>A president, this person makes sure the board meets regularly and assists all other board members where needed.</li>
+        <li>A vice-president, this person takes care of the report of every board meeting and assists the president where needed.</li>
+        <li>A treasurer, this function coordinates the budget and material needed for the activities and approves the expenses.</li>
+        <li>A responsible for internal relations, this person coordinates the communication with the members.</li>
+        <li>A responsible for external relations, this person coordinates the activities.</li>
+      </ol>
+      If you want to be a candidate board member, please contact the current board at info@tango.tips or 0478/668 298
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div>
+      Milonga: €6, members: € 5 from 20h until 1h, music by Grégory Demerville<br/>
+      <br/>
+      Dance floor: Brusselsesteenweg 263, 9090 Melle<br/>
+      Parking: Kloosterstraat, 9090 Melle<br/>
+    </div>
+    <br/>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/HGeQN8usZVM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <br/>
+  </mat-tab>
+</mat-tab-group>  
+<br/>
+<app-map-entre-cour-et-jardin></app-map-entre-cour-et-jardin>
