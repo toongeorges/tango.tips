@@ -40,6 +40,7 @@ import { Mar2019Component } from './page/milonga/mar2019/mar2019.component';
 import { Apr2019Component } from './page/milonga/apr2019/apr2019.component';
 import { May2019Component } from './page/milonga/may2019/may2019.component';
 import { June2019Component } from './page/milonga/june2019/june2019.component';
+import { Jul2019Component } from './page/milonga/jul2019/jul2019.component';
 
 @NgModule({
   declarations: [
@@ -75,7 +76,8 @@ import { June2019Component } from './page/milonga/june2019/june2019.component';
     Mar2019Component,
     Apr2019Component,
     May2019Component,
-    June2019Component
+    June2019Component,
+    Jul2019Component
   ],
   imports: [
     BrowserModule,
