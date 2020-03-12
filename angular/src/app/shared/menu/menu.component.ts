@@ -11,8 +11,4 @@ export class MenuComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  navigateToForum() {
-    window.open("https://tango.tips/forum", "_self");
-  }
 }

@@ -1,0 +1,54 @@
+<mat-grid-list cols="3" rowHeight="1:1">
+  <mat-grid-tile [colspan]="2">
+    <img routerLink="/milonga" [src]="imgSrc" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()" height="100%" alt="Milonga Info">
+  </mat-grid-tile>
+  <mat-grid-tile><img src="assets/images/la-yumba.svg" height="100%" alt="La Yumba Milonga Ghent"></mat-grid-tile>
+</mat-grid-list>
+<mat-tab-group>
+  <mat-tab label="Nederlands">
+    <p>
+      Nieuwjaarsmilonga!<br/>
+      Iedereen krijgt 2 glazen cava of fruitsap (1 bij inkom en 1 om middernacht)<br/>
+      Iedereen wordt uitgenodigd eten mee te brengen dat gedeeld wordt in een buffet<br/>
+    </p>
+    <p>
+      <a href="https://drive.google.com/open?id=18o9LEQQQQZgr5gKudJAFlHBapyQdfCkw0skHBCv0bCU" target="_blank">Gelieve op deze link te registreren.</a><br/>
+      Na registratie sturen we een bevestigingsemail.
+      Indien de zaal vol is, hebben mensen die registreren voorrang.
+    </p>
+    <p>
+      Van 20u tot 5u<br/>
+      Inkom: €12, leden: € 10<br/>
+      Muziek: J&eacute;<br/>
+      <br/>
+      Dansvloer: Brusselsesteenweg 263, 9090 Melle<br/>
+      Parkeerplaats: Kloosterstraat, 9090 Melle<br/>
+    </p>
+  </mat-tab>
+  <mat-tab label="English">
+    <p>
+      New Year's Milonga!<br/>
+      Everyone receives 2 glasses of cava or orange juice (1 at entrance and 1 at midnight)<br/>
+      Everyone is invited to bring food that will be shared in a buffet<br/>
+    </p>
+    <p>
+      <a href="https://drive.google.com/open?id=18xdyP1eBCzDU9J70QTLQn7TAgGVxjdSCtBvKeUh0bFI" target="_blank">Please register at this link.</a><br/>
+      After registration we send a confirmation email.
+      If the dance floor is full, people who register have priority.
+    </p>
+    <p>
+      From 20h until 5h<br/>
+      Entrance: €12, members: € 10<br/>
+      Music: J&eacute;<br/>
+      <br/>
+      Dance floor: Brusselsesteenweg 263, 9090 Melle<br/>
+      Parking: Kloosterstraat, 9090 Melle<br/>
+    </p>
+  </mat-tab>
+</mat-tab-group>  
+<br/>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/HGeQN8usZVM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<br/>
+<app-map-entre-cour-et-jardin></app-map-entre-cour-et-jardin>
