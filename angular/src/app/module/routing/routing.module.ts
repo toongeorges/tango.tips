@@ -30,7 +30,7 @@ import { June2019Component } from '../../page/milonga/june2019/june2019.componen
 import { Jul2019Component } from '../../page/milonga/jul2019/jul2019.component';
 import { Aug2019Component } from '../../page/milonga/aug2019/aug2019.component';
 import { Dec2019Component } from '../../page/milonga/dec2019/dec2019.component';
-import { Apr2020Component } from 'src/app/page/milonga/apr2020/apr2020.component';
+import { May2020Component } from 'src/app/page/milonga/may2020/may2020.component';
 
 const routes: Routes = [
   { path: 'milonga', component: MilongaComponent },
@@ -56,7 +56,6 @@ const routes: Routes = [
   { path: 'milonga/jul2019', component: Jul2019Component },
   { path: 'milonga/aug2019', component: Aug2019Component },
   { path: 'milonga/dec2019', component: Dec2019Component },
-  { path: 'milonga/apr2020', component: Apr2020Component },
   { path: 'code', component: CodeComponent },
   { path: 'organisation', component: OrganisationComponent,
     children: [
@@ -68,7 +67,7 @@ const routes: Routes = [
   },
   { path: 'contact', component: ContactComponent },
   { path: 'statuten', redirectTo: '/organisation/statuten', pathMatch: 'full' },
-  { path: '', redirectTo: '/milonga/apr2020', pathMatch: 'full' }
+  { path: '', redirectTo: '/milonga', pathMatch: 'full' }
 ];
 
 @NgModule({
