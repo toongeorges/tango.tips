@@ -43,7 +43,7 @@ import { June2019Component } from './page/milonga/june2019/june2019.component';
 import { Jul2019Component } from './page/milonga/jul2019/jul2019.component';
 import { Aug2019Component } from './page/milonga/aug2019/aug2019.component';
 import { Dec2019Component } from './page/milonga/dec2019/dec2019.component';
-import { Apr2020Component } from './page/milonga/apr2020/apr2020.component';
+import { May2020Component } from './page/milonga/may2020/may2020.component';
 
 @NgModule({
   declarations: [
@@ -83,7 +83,7 @@ import { Apr2020Component } from './page/milonga/apr2020/apr2020.component';
     Jul2019Component,
     Aug2019Component,
     Dec2019Component,
-    Apr2020Component
+    May2020Component
   ],
   imports: [
     BrowserModule,
